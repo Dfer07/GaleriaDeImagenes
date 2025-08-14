@@ -1,0 +1,55 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor-padre{
+    /* background-color: red; */
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+
+}
+
+input{
+    width: 90%;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    height: 28px;
+    padding: 8px;
+}
+button{
+    margin-top: 8px;
+    width: 90%;
+    background-color: rgb(39, 39, 202);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid black;
+    height: 24px;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+#resultados-imagenes{
+    margin-top: 20px;
+    width: 90%;
+    column-count: 4;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+#resultados-imagenes img{
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 12px;
+    display: block;
+}
